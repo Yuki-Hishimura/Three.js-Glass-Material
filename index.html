@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Three.js GlassMaterial demo</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link href="css/style.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- ここに描画される -->
+    <canvas id="canvas" class="canvas"></canvas>
+  </div>
+
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+          "fontLoader": "https://unpkg.com/three@0.165.0/examples/jsm/loaders/FontLoader.js",
+          "textGeometry": "https://unpkg.com/three@0.165.0/examples/jsm/geometries/TextGeometry.js",
+          "gui": "https://unpkg.com/three@0.165.0/examples/jsm/libs/lil-gui.module.min.js"
+        }
+      }
+  </script>
+  <script type="module" src="js/function.js"></script>
+</body>
+
+</html>
